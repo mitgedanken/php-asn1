@@ -1,22 +1,18 @@
-PHPASN1
-=======
+# PHP-ASN1
 
-[![Latest Stable Version](https://poser.pugx.org/fgrosse/phpasn1/v/stable.png)](https://packagist.org/packages/fgrosse/phpasn1)
-[![Total Downloads](https://poser.pugx.org/fgrosse/phpasn1/downloads.png)](https://packagist.org/packages/fgrosse/phpasn1)
-[![License](https://poser.pugx.org/fgrosse/phpasn1/license.png)](https://packagist.org/packages/fgrosse/phpasn1)
+- [![Latest Stable Version](https://poser.pugx.org/fgrosse/phpasn1/v/stable.png)](https://packagist.org/packages/fgrosse/phpasn1)
+- [![Total Downloads](https://poser.pugx.org/fgrosse/phpasn1/downloads.png)](https://packagist.org/packages/fgrosse/phpasn1)
+- [![License](https://poser.pugx.org/fgrosse/phpasn1/license.png)](https://packagist.org/packages/fgrosse/phpasn1)
 
----
+This is a *fork* as you can see. \
+Following content is _from its origin_.
 
-<h2><span style="color:red">Notice: This library is no longer actively maintained!</span></h2>
-If you are currently using PHPASN1, this might not be an immediate problem for you, since this library was always rather stable.
+Form now on I will write any differences in [Changes.md](Changes.md).
 
-However, you are advised to migrate to alternative packages to ensure that your applications remain functional also with newer PHP versions.
+You can also read my [roadmap](Roadmap.md).
 
-Another option is to fork this repository or use [one of the existing forks][14].
 
-⚠ **If you are using another fork, please make sure you trust the author** and validate the code you are relying upon!
-
----
+## What is this?
 
 A PHP Framework that allows you to encode and decode arbitrary [ASN.1][3] structures
 using the [ITU-T X.690 Encoding Rules][4].
