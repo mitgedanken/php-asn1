@@ -4,13 +4,12 @@
 - [![Total Downloads](https://poser.pugx.org/fgrosse/phpasn1/downloads.png)](https://packagist.org/packages/fgrosse/phpasn1)
 - [![License](https://poser.pugx.org/fgrosse/phpasn1/license.png)](https://packagist.org/packages/fgrosse/phpasn1)
 
-This is a *fork* as you can see. \
+This is a _fork_ as you can see. \
 Following content is _from its origin_.
 
 Form now on I will write any differences in [Changes.md](Changes.md).
 
 You can also read my [roadmap](Roadmap.md).
-
 
 ## What is this?
 
@@ -60,7 +59,7 @@ use FG\ASN1\Universal\Sequence;
 use FG\ASN1\Universal\Set;
 use FG\ASN1\Universal\NullObject;
 
-$integer = new Integer(123456);        
+$integer = new Integer(123456);
 $boolean = new Boolean(true);
 $enum = new Enumerated(1);
 $ia5String = new IA5String('Hello world');
@@ -79,7 +78,6 @@ $myBinary .= $set->getBinary();
 echo base64_encode($myBinary);
 ```
 
-
 ### Decoding binary data
 
 Decoding BER encoded binary data is just as easy as encoding it:
@@ -88,7 +86,7 @@ Decoding BER encoded binary data is just as easy as encoding it:
 use FG\ASN1\ASNObject;
 
 $base64String = ...
-$binaryData = base64_decode($base64String);        
+$binaryData = base64_decode($base64String);
 $asnObject = ASNObject::fromBinary($binaryData);
 
 
@@ -128,14 +126,12 @@ You can use this function to make sure your data has exactly the format you are 
 All constructed classes (i.e. `Sequence` and `Set`) can be navigated by array access or using an iterator.
 You can find examples
 [here](https://github.com/fgrosse/PHPASN1/blob/f6442cadda9d36f3518c737e32f28300a588b777/tests/ASN1/Universal/SequenceTest.php#L148-148),
-[here](https://github.com/fgrosse/PHPASN1/blob/f6442cadda9d36f3518c737e32f28300a588b777/tests/ASN1/Universal/SequenceTest.php#L121) and 
+[here](https://github.com/fgrosse/PHPASN1/blob/f6442cadda9d36f3518c737e32f28300a588b777/tests/ASN1/Universal/SequenceTest.php#L121) and
 [here](https://github.com/fgrosse/PHPASN1/blob/f6442cadda9d36f3518c737e32f28300a588b777/tests/ASN1/TemplateParserTest.php#L45).
-
 
 ### Give me more examples!
 
 To see some example usage of the API classes or some generated output check out the [examples](https://github.com/fgrosse/PHPASN1/tree/master/examples).
-
 
 ### How do I contribute?
 
